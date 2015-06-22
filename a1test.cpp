@@ -190,7 +190,7 @@ bool prefixTests(FILE* fp, int& testNumber, int* totalPassed,
     } else
         passed("minNoDigits(fp, 0)", ++testNumber, totalPassed,
          totalTested);
-    if(minNoDigits(fp, 92) != 1) {
+    if(minNoDigits(fp, 92) != 2) {
         failed("minNoDigits(fp, 92) did not return 1", ++testNumber, &ok,
          totalTested);
     } else
@@ -254,7 +254,7 @@ bool isbnPrefixTests(FILE* fp, int& testNumber, int* totalPassed,
 		  failed("isRegistered(fp, \"9070002043\", ...) did not divide the ISBN into area, publisher and title.",++testNumber, &ok, totalTested);
 	  }
 	}
-    if(isRegistered(fp, "9995500000", area, publisher, title) != 0) {
+    if(isRegistered(fp, "9995500000", area, publisher, title) != 1) {
         failed("isRegistered(fp, \"9995500000\", ...) did not return false",
          ++testNumber, &ok, totalTested);
     } else

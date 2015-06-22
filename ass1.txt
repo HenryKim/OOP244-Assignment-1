@@ -1,7 +1,7 @@
-Script started on Thu 13 Jun 2013 11:04:44 PM EDT
+Script started on Fri 09 Aug 2013 01:46:38 PM EDT
 hkim142@matrix:~/oop244/ass1> whoami
 hkim142
-hkim142@matrix:~/oop244/ass1> whoamiexit[Kscript a11.txtg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript a11.txt[Ka.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript a11.txt[Ka.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript a11.txt[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript a11.txt[Ka.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.out[Kg++ ISBN.cpp ISBNPrefix.cpp a1test.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[K[Kcat ISBn.[K[KN.h IS B[K[KBN.cpp ISBNPrefix.h ISBNPrefix.cpp
+hkim142@matrix:~/oop244/ass1> cl[K[Kcat ISBN.h ISBN.cpp
 //hyungi kim 025 741 125//
 //oop244//
 //assignment1//
@@ -86,14 +86,8 @@ int isRegistered(FILE* fp, const char str[], char area[], char publisher[], char
 	return rc;
 }//end
 
+hkim142@matrix:~/oop244/ass1> cat ISBNPrefix.cpp ISBNPrefix.h
 //hyungi kim 025 741 125//
-//oop244//
-//assignment1//
-FILE* open(const char filename[]);
-int isRegistered(FILE*fp, int area);
-int minNoDigits(FILE* fp, int area);
-int isRegistered(FILE* fp, int area, const char publisher[]);
-int close(FILE* fp);//hyungi kim 025 741 125//
 //oop244//
 //assignment1//
 #include <stdio.h>
@@ -193,8 +187,14 @@ int close(FILE* fp){
 	}
 	return ck;
 }
-hkim142@matrix:~/oop244/ass1> g++ ISBN.prefix ISBN.[K[K[K[K[K[K[K[K[K[K[K[K[KPrefix.cpp ISBN.cpp I[Kas[K1r[Ktest.cpp
-hkim142@matrix:~/oop244/ass1> a.out
+//hyungi kim 025 741 125//
+//oop244//
+//assignment1//
+FILE* open(const char filename[]);
+int isRegistered(FILE*fp, int area);
+int minNoDigits(FILE* fp, int area);
+int isRegistered(FILE* fp, int area, const char publisher[]);
+int close(FILE* fp);hkim142@matrix:~/oop244/ass1> a.out
 
 Prefix Tests
 ============
@@ -257,4 +257,4 @@ Congratulations!!!   Your Bookstore modules are ready for submission
 hkim142@matrix:~/oop244/ass1> exit
 exit
 
-Script done on Thu 13 Jun 2013 11:05:44 PM EDT
+Script done on Fri 09 Aug 2013 01:47:45 PM EDT
